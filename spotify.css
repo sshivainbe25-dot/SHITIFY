@@ -1,0 +1,353 @@
+ @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'ubuntu',sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+
+.container{
+    min-height: 79vh;
+    color: white;
+
+    background-color: black;
+   display: flex;
+   margin: 23px auto;/*due to this auto the container div comes in the middle from left and right but to execute it we also reduce the widht of the container toi 70%*/
+   width: 70%;
+    font-family: 'Varela Round',sans-serif;
+    border-radius: 16px;
+     padding: 23px;
+
+     width: 1111px;
+
+   
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* flex direction will be used here for getting icons in one cloumn below the volume progressbar and we can only use flex-direction when we have to have a flexbox already in the class 
+    */
+    flex-direction: column;;
+
+}
+
+.icons
+{
+    /*to get space between the icons and the preogress bar*/
+    margin-top: 10px;
+}
+
+
+.icons i{
+    cursor: pointer;
+    /*ofr icon to work and look likme button when we click them*/
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.background{
+    margin-left: 100px;
+    width: 250px;
+    height: auto;
+    
+    
+}
+.banner .background{
+    width: 300px;
+}
+.songicons{
+    height: 30px;
+    width: 40px;
+}
+    
+
+
+.somgitems1{
+    height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    
+
+    
+}
+.timestap{
+    margin: 0 23px;
+}
+
+.somgitems1 i{
+    cursor: pointer;
+}
+.songicon2
+{
+    height: 30px;
+    width: 40px;
+    margin-right: 47px;
+}
+
+.songitems2
+{
+     height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+.songitems2 i{
+    cursor: pointer;
+}
+.songitems3
+{
+      height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.songicon3
+{
+    height: 30px;
+    width: 40px;
+    margin-right: 37px;
+    
+}
+
+.songitems4{
+     height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.songicon4
+{
+    height: 30px;
+    width: 40px;
+    margin-right: 43px;
+}
+
+.songitems5{
+    height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+
+
+}
+.songicon5{
+    height: 30px;
+    width: 40px;
+    margin-right: 57px;
+   
+
+}
+.songitems6{
+     height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+
+}
+.songicon6{
+    height: 30px;
+    width: 40px;
+    margin-right: 75px;
+
+
+
+}
+.songitems3 i{
+    cursor: pointer;
+}
+.songitems4 i{
+    cursor: pointer;
+}
+.songitems5 i{
+    cursor: pointer;
+    
+}
+.songitems6 i{
+    cursor: pointer;
+}
+.songitems7 i{
+    cursor: pointer;
+}
+
+.songlistcontainer{
+    margin-top: 90px;
+
+}
+.songinfo
+{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round',sans-serif;
+}
+.songitems7{
+     height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+.songicon7{
+    width: 40px;
+    height: 30px;
+    margin-right: 40px;
+}
+.songitems8{
+     height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+
+}
+.songicon8{
+    width: 40px;
+    height: 30px;
+    margin-right: 30px;
+
+}
+.songitems8 i{
+    cursor: pointer;
+}
+
+.songitems9{
+    height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+
+}
+
+.songicon9{
+    width: 40px;
+    height: 30px;
+    margin-right: 69px;
+}
+
+.songitems9 i{
+    cursor: pointer;
+}
+.songitems10{
+     height:30px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+    margin-top: 25px;
+
+}
+.songitems10 i{
+    cursor: pointer;
+}
+.songicon10{
+    height: 30px;
+    width: 40px;
+    
+}
+
+.container h1{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
